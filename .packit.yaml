@@ -22,4 +22,4 @@ jobs:
   trigger: commit
   actions:
     post-upstream-clone:
-    - rpmdev-bumpspec --coment='latest upstream build' ./packaging/epel/convert2rhel.spec
+    - rpmdev-bumpspec --comment='latest upstream build' ./packaging/epel/convert2rhel.spec
